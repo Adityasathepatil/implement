@@ -1,0 +1,4 @@
+np.zero_like: here it return an array of zeros
+np.arange:one of the array creation routine based on numerical range
+np.exp:help user to calculate expoentinal of all the elemnts
+np.argmax: returns indices of the max element of the array 
