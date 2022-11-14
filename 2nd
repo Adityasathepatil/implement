@@ -1,0 +1,21 @@
+normalize means we have to convert values into form of 1 and 0
+sequential means we create layers one after another
+in the first line, we are feeding the input of image 28,28 pixels
+we have use flattern , to shape data to change its matrix
+dense means each neuron is connected with next layer
+means here whaterver input we are getting , we will add this to dense layer with activation
+relu recified linear unit , it will give max loss in positive manner 
+third layer has 10 layer with activation layer softmax to turn the values into 
+probability , means here we have 10 classes from 10 we will get max probability
+and which is max probability will be shown
+we have used three paramters inside compile
+optimizer used to control the learning rate 
+loss = sparse_categorical_crossentrophy
+above will save time and computation
+metrics="accuracy", will give accuracy
+epochs=the number of time the model will cycle through data
+np.argmax- it will return indices of maxiumum value
+history contains all the values of losses and accuracy
+history.history means it will give  value dictionary form 
+then we are creating plot wih all 10 values of history 
+then after we are creating the all the loss values at last and we will get thsee values from dictionary
