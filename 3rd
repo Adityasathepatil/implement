@@ -1,0 +1,18 @@
+plt.subplot provides a way to plot multiple plots on a single figure
+plt.imshow: creates an image from 2 dimensional numpy array
+plt.xticks gets current horizontal location
+conv2D(32,(3,3),activation=relu)
+here above first paramter is number of filters , size of fiters and for first layer will will take inpuit layer
+maxpooling2d(2,2) it will take width and hieght
+metrics: will indicate on which we have to evaluate our model
+stochastic gradient descent is an optimazation algorithm often used in machine learning
+app to find the model paramter that correspond to best fit betwn predicted and actual output
+learning rate is default scheudule in all keras optimizer
+mode.compile means to finalize the model and make for use
+sparse_categorical_crossentropy : it is probable match for each value 
+accuracy: calculate how often predictions equal labels
+batch_size : it is number of samples processed before the model is updated
+plt.figure:it is used for creating figures
+random_choice: it will give random value from a sequence
+squeeze-it will remove single-dimensional entries from shape of an array
+
